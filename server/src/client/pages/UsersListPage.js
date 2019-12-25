@@ -24,7 +24,8 @@ class UsersListPage extends Component {
 }
 
 function loadData(store) {
-  // return store.dispatch(fetchUsers());
+  console.log("load data");
+  return store.dispatch(fetchUsers());
 }
 
 function mapStateToProps(state) {
