@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className="center-align" style={{marginTop:'200px'}}>
       <h3>Welcome</h3>
-      <button onClick={() => console.log("clicked")}>click</button>
+      <h4>check this out</h4>
     </div>
   );
 };
